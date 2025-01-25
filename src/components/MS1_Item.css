@@ -1,0 +1,12 @@
+.MS1_Item {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MS1_Item img {
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,9 @@
+.Main_Section1 {
+  margin: 0px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  border-bottom: 4px solid whitesmoke;
+}
