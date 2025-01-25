@@ -1,0 +1,48 @@
+.Header {
+
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.Header .Header-Categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+
+.Header .Header-Logo {
+  color: rgb(255, 103, 62);
+  font-size: 28px;
+  font-weight: bolder;
+  text-decoration: none;
+
+}
+
+
+
+
+.Header .Header-Categories ul {
+  flex: 1;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+
+}
+
+.Header .Header-Categories ul a {
+  color: gray;
+  text-decoration: none;
+  border-right: 1px solid gray;
+  padding-right: 20px;
+  font-size: 20px;
+
+}
+
+.Header .Header-Categories ul button {
+  font-size: 30px;
+}

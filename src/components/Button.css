@@ -1,0 +1,24 @@
+.Button {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(255, 103, 62);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.Button_logIn {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+button {
+  cursor: pointer;
+}
