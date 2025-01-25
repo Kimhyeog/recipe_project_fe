@@ -1,6 +1,7 @@
 .LogIn-Page {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .Login-Contents {
@@ -14,19 +15,24 @@
   align-items: center;
 
   border: 2px solid black;
-  border-radius: 10px;
-
+  border-radius: 20px;
+  background-image: url("src/assets/login_page_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Login-Contents form {
-  width: 680px;
-  height: 700px;
+  min-width: 680px;
+  min-height: 700px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 2px solid gray;
+  border-radius: 20px;
+  background-color: white;
+
 
 }
 
@@ -60,4 +66,12 @@
   padding: 10px;
   border-radius: 10px;
   ;
+}
+
+.Login-Contents form button {
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 1.5em;
+  border-radius: 20px;
+
 }

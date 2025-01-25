@@ -27,7 +27,7 @@ function Instructor({ type }) {
       <div className="Instructor-Contents">
         <h2>{headerType.pText}</h2>
         <h1>{headerType.h2Text}</h1>
-        <Button text={"시발"} />
+        <Button text={"아니요"} />
       </div>
     </div>
   );
