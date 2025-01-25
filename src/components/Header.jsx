@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Header.css";
 
 import Button from "./Button";
 import Instructor from "./Instructor";
 
-function Header() {
+function Header({ isLogIn = false }) {
+  const nav = useNavigate();
+
   return (
     <div className="Header">
       <div className="Header-Categories">
@@ -25,9 +27,15 @@ function Header() {
             <li>우리의 조리재료</li>
           </Link>
         </ul>
-        <Button type={"logIn"} text={"로그인·회원가입"} />
+        <Button
+          type={"logIn"}
+          text={"로그인·회원가입"}
+          onClick={() => {
+            nav("/login");
+          }}
+        />
       </div>
-      <Instructor />
+      {isLogIn ? null : <Instructor />}
     </div>
   );
 }

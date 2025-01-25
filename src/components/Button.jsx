@@ -1,8 +1,11 @@
 import "./Button.css";
 
-function Button({ text, type = "" }) {
+function Button({ text, type = "", onClick }) {
   return (
-    <button className={`Button${type === "" ? type : "_" + type}`}>
+    <button
+      onClick={onClick}
+      className={`Button${type === "" ? type : "_" + type}`}
+    >
       {text}
     </button>
   );
